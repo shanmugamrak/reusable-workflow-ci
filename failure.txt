@@ -3,6 +3,7 @@ Run ./gradle-4.10.1/bin/gradle build -PbuildVersion=
   shell: /usr/bin/bash -e {0}
   env:
     JAVA_HOME: /opt/hostedtoolcache/Java_Adopt_jdk/8.0.392-8/x64
+  
 
 Welcome to Gradle 4.10.1!
 
@@ -26,19 +27,19 @@ A problem occurred configuring root project 'release'.
      Required by:
          project :
       > Could not resolve com.rakbank.infosys.lib:gradle-plugin:1111.
-         > Could not get resource 'https://maven.pkg.github.com/Rakbank-DEH-Onboarding/RetailOnboarding-AccMS/com/rakbank/infosys/lib/gradle-plugin/1111/gradle-plugin-1111.pom'.
+         > Could not get resource 'https://maven.pkg.github.com/Rakbank-DEH-Onboarding/SMEDigitalBank/com/rakbank/infosys/lib/gradle-plugin/1111/gradle-plugin-1111.pom'.
             > java.lang.NullPointerException (no error message)
    > Could not resolve com.rakbank.infosys.lib.fbk:gradle-plugin:1111.
      Required by:
          project :
       > Could not resolve com.rakbank.infosys.lib.fbk:gradle-plugin:1111.
-         > Could not get resource 'https://maven.pkg.github.com/Rakbank-DEH-Onboarding/RetailOnboarding-AccMS/com/rakbank/infosys/lib/fbk/gradle-plugin/1111/gradle-plugin-1111.pom'.
+         > Could not get resource 'https://maven.pkg.github.com/Rakbank-DEH-Onboarding/SMEDigitalBank/com/rakbank/infosys/lib/fbk/gradle-plugin/1111/gradle-plugin-1111.pom'.
             > java.lang.NullPointerException (no error message)
    > Could not resolve com.rakbank.infosys.lib.fba:gradle-plugin:1111.
      Required by:
          project :
       > Could not resolve com.rakbank.infosys.lib.fba:gradle-plugin:1111.
-         > Could not get resource 'https://maven.pkg.github.com/Rakbank-DEH-Onboarding/RetailOnboarding-AccMS/com/rakbank/infosys/lib/fba/gradle-plugin/1111/gradle-plugin-1111.pom'.
+         > Could not get resource 'https://maven.pkg.github.com/Rakbank-DEH-Onboarding/SMEDigitalBank/com/rakbank/infosys/lib/fba/gradle-plugin/1111/gradle-plugin-1111.pom'.
             > java.lang.NullPointerException (no error message)
 
 * Try:
@@ -46,5 +47,5 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 Error: Process completed with exit code 1.
