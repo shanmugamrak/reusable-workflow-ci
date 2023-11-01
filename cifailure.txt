@@ -1,0 +1,58 @@
+Run ./gradle-4.10.1/bin/gradle build -PbuildVersion=1111
+
+Welcome to Gradle 4.10.1!
+
+Here are the highlights of this release:
+ - Incremental Java compilation by default
+ - Periodic Gradle caches cleanup
+ - Gradle Kotlin DSL 1.0-RC6
+ - Nested included builds
+ - SNAPSHOT plugin versions in the `plugins {}` block
+
+For more details see https://docs.gradle.org/4.10.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :
+org.gradle.api.plugins.HelpTasksPlugin@61bb5e4d
+org.gradle.language.base.plugins.LifecycleBasePlugin@7143b6f5
+org.gradle.api.plugins.BasePlugin@582dade8
+org.gradle.api.plugins.ReportingBasePlugin@61eac91b
+org.gradle.api.plugins.JavaBasePlugin@7098b238
+org.gradle.api.plugins.JavaPlugin@1c8046c0
+org.gradle.api.plugins.WarPlugin@29f7ea55
+org.gradle.platform.base.plugins.ComponentBasePlugin@1e625c61
+org.gradle.language.base.plugins.LanguageBasePlugin@2b5e24e7
+org.gradle.platform.base.plugins.BinaryBasePlugin@35f6d10a
+org.gradle.api.plugins.JavaBasePluginRules@23c530a3
+org.gradle.api.publish.plugins.PublishingPlugin@2f48f1ee
+org.gradle.api.publish.maven.plugins.MavenPublishPlugin@75eb81fc
+vr.plugin.ManifestClasspathPlugin@761670ca
+org.sonarqube.gradle.SonarQubePlugin@7cdc0683
+classpath:: file collection
+archiveName:: smedigitalbank-1111.war
+
+> Task :generateDAL NO-SOURCE
+> Task :generateER NO-SOURCE
+> Task :generateOpenAPI NO-SOURCE
+> Task :generateService NO-SOURCE
+> Task :generateTAO NO-SOURCE
+> Task :generateVO NO-SOURCE
+> Task :compileJava
+/home/runner/work/SMEDigitalBank/SMEDigitalBank/src/main/java/com/infosys/custom/ebanking/tao/dao/BAOADAO.java:219: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+				+ "] ErrorCode : [" + ErrorCodes.RAC_ERROR_OCCURRED + "]", 0, e, null);
+				                                                                 ^
+  cast to AdditionalParam for a varargs call
+  cast to AdditionalParam[] for a non-varargs call and to suppress this warning
+/home/runner/work/SMEDigitalBank/SMEDigitalBank/src/main/java/com/infosys/custom/ebanking/tao/dao/BAOADAO.java:235: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+					+ "] ErrorCode : [" + ErrorCodes.RAC_ERROR_OCCURRED + "]", 0, e, null);
+					                                                                 ^
+  cast to AdditionalParam for a varargs call
+  cast to AdditionalParam[] for a non-varargs call and to suppress this warning
+/home/runner/work/SMEDigitalBank/SMEDigitalBank/src/main/java/com/infosys/custom/ebanking/tao/dao/BAOADAO.java:373: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+				+ "] ErrorCode : [" + ErrorCodes.RAC_ERROR_OCCURRED + "]", 0, e2, null);
+				                                                                  ^
+  cast to AdditionalParam for a varargs call
+  cast to AdditionalParam[] for a non-varargs call and to suppress this warning
+/home/runner/work/SMEDigitalBank/SMEDigitalBank/src/main/java/com/infosys/custom/ebanking/tao/dao/BAOADAO.java:390: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+							+ "] ErrorCode : [" + ErrorCodes.RAC_ERROR_OCCURRED + "]", 0, e3, null);
